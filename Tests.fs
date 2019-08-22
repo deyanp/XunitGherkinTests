@@ -1,4 +1,4 @@
-module NormaldTests
+module XUnitTests.Tests
 
 open System
 open Xunit
