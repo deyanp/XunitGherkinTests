@@ -11,13 +11,15 @@ type AddTwoNumbers() =
 
     let a : int = 1
 
+    //DELIBERATELY COMMENTED OUT SO THAT THE STEP IN THE BASE CLASS CAN BE FOUND AND USED
     // [<Given(@"I chose (\d+) as first number")>]
     // member __.``Given I chose x as first number`` (firstNumber:int) = 
     //     printfn "in Given I chose x as first number %i" firstNumber
 
-    [<And(@"I chose (\d+) as second number")>]
-    member __.``I chose second number`` (secondNumber:int) = 
-        printfn "in I chose second number %i" secondNumber    
+    //DELIBERATELY COMMENTED OUT SO THAT THE STEP IN THE EXTENSION TO THE BASE CLASS CAN BE FOUND AND USED
+    // [<And(@"I chose (\d+) as second number")>]
+    // member __.``I chose second number`` (secondNumber:int) = 
+    //     printfn "in I chose second number %i" secondNumber    
 
     [<When(@"I press add")>]
     member __.``I press add`` () = 
